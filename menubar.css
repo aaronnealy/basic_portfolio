@@ -1,0 +1,51 @@
+#pageContainer{
+    position: relative;
+    height:800px;
+}
+
+.navBar{
+    background-color: #ffffff;
+    padding: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+nav{
+    float: right;
+    position: relative;
+    right: 146px;
+    top: -34px;
+    
+}
+
+.nameBox{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    padding: 20px;
+    top: 0px;
+    display: inline;
+    position: relative;
+    left: 122px;
+}
+
+#left{
+    font-size: 20px;
+    padding: 10px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#middle{
+    font-size: 20px;
+    padding: 10px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#right{
+    font-size: 20px;
+    padding: 10px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}

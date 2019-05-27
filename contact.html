@@ -5,34 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/body.css" />
 </head>
-<body>
-    <h1>Aaron Nealy</h1>
-    <div>
-      <nav>
-        <a href="/index.html/">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/portfolio.html">Portfolio</a>
-      </nav>
+  <body>
+    <div id="pageContainer">
+        <div class="navBar">
+          <div>
+            <h1 class="nameBox">Aaron Nealy</h1>
+          </div>
+  
+          <div>
+            <nav>
+              <a href="./index.html" id="left">About</a>
+              <a href="./contact.html" id="middle">Contact</a>
+              <a href="./portfolio.html" id="right">Portfolio</a>
+            </nav>
+          </div>
+        </div>
+      <div class=bioContact>
+        <h1 class=aboutMe>Contact</h1>
+      
+        <hr size="4" class="boarder"/>
+        <br /> 
+      
+        <form class="contactForm">
+                <label class="labelName">Name:</label>
+                <input type="text" class="boxText1"> 
+                
+                <label class="labelEmail">Email:</label>
+                <input type="text" class="boxText2">
+                
+                <label class="labelMessage">Message:</label>
+                
+                <textarea name="message" rows="10" cols="90" class="boxText3"></textarea>
+                <button class="button1">Submit</button>
+        </form>
+        <div class="clear"></div>
+      </div>
+      
+      <footer id="footer">Copyright</footer>
     </div>
-    <div>
-        <h1>Contact</h1>
-      <hr size="4" class="boarder"/>
-    
-    </div>
- <div>
-        <form>
-                <label>Name</label>
-                <input type="text">
-                <br><br>
-                <label>Email</label>
-                <input type="text">
-                <br><br>
-                <label>Message</label>
-                <input type="text">
-                <button>Submit</button>
-            </form>
- </div>
-</body>
-<footer>Copyright</footer>
+  </body>
 </html>
